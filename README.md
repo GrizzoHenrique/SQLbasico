@@ -1,13 +1,34 @@
-# Exercício Módulo 25 do curso de ciêntista de dados da EBAC
-**Este Projeto tem como objetivo a práticar das funções básicas de SQL utilizando o SQLITE dentro de um ambiente Python, a atividade utiliza uma base de vendaspara explorar consultas fundamentais dentro da análise de dados**
+# SQL Básico Analise de E-Commerce
+**Este Projeto tem como objetivo dominar técnicas básica da linguagem de banco de dados SQL aplicadas a vida real em um banco de dados de um e-commerce**
 
-## Estrutura dos dados
-**A Base de vendas possui as seguintes colunas:**
-* ID_COMPRA - Identificador da compra
-* ID_CLIENTE - Identificador do cliente
-* PRODUTO - Nome do produto vendido
-* VALOR_UNID - Valor unitário do produto vendido
-* UNIDADES - Quantidade comprada
+## Objetivos
+
+- ✓ Dominar sintaxe básica de SQL
+- ✓ Realizar Consultas básicas do SQL
+- ✓ Integrar SQL com Python/Pandas
+- ✓ Aplicar boas práticas em consultas SQL
+
+| Tecnologia | Versão | Propósito |
+|-----------|--------|----------|
+| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | 3.7+ | Linguagem principal |
+| ![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white) | 3.x | Banco de dados |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) | Latest | Manipulação de dados |
+
+
+## Dataset: E-commerce
+
+### Tabelas Disponíveis
+
+#### TB_CLIENTES
+| Coluna | Descrição |
+|--------|-----------|
+| **ID_CLIENTE** | Identificador único do cliente |
+| **ID_COMPRA** | Identificador da compra |
+| **ESTADO** | Estado de residência |
+| **PRODUTO** | Nome do produto vendido |
+| **VALOR_UNID** | Valor unitário do produto vendido |
+| **UNIDADES** | Quantidade comprada|
+
 
 ## Consultas realizadas
 * Listar os produtos distintos da base de dados
